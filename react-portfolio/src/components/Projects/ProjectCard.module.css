@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #1b3d2d 0%, #2a5d46 100%); /* Xanh lá đen */
+  box-shadow: 0 16px 14px 0 #0a1c14; /* Màu xanh lá đen tối */
+  padding: 18px 24px;
+  max-width: 345px;
+}
+
+.image {
+  margin-bottom: 26px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: #102a1d; /* Xanh lá đen đậm */
+  padding: 2px 22px;
+}
+
+.links {
+  width: 70%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.link {
+  padding: 2px;
+  text-decoration: none;
+  color: var(--color-text); /* Giữ màu chữ trắng */
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: #1b3d2d; /* Xanh lá đen */
+  padding: 1px 22px;
+}
